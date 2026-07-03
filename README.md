@@ -5,8 +5,10 @@ A lightweight, standalone C utility to force-pair Logitech wireless devices (lik
 This tool uses Apple's native **IOKit framework** to target the configuration interface (`Usage Page 0xFF00`), bypassing macOS USB write protections and avoiding the need for massive graphical libraries or Linux-specific utilities.
 
 ## Prerequisites
-* An Intel Mac running macOS (Tested on macOS 10.15 Catalina).
-* Xcode Command Line Tools installed (`xcode-select --install`).
+* **macOS Version:** Tested on macOS 10.15 Catalina (compatible with newer macOS releases).
+* **Hardware:** Fits both **Intel** and **Apple Silicon (M1/M2/M3/M4)** architectures natively.
+* **Ports:** Requires a USB-C adapter or hub if your Mac only has USB-C ports.
+* **Compilers:** Xcode Command Line Tools installed (`xcode-select --install`).
 
 ## How to Build and Run
 
